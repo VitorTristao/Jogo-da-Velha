@@ -1,0 +1,31 @@
+	table, th, td {
+		border: 3px solid black;
+		border-collapse: collapse;
+	}
+	th, td {
+		padding: 10px;
+	}
+	table{
+		width: 50px;
+		height: 50px;
+		border-color: #0000ff;
+	}
+	
+	img {
+		width: 80px;
+		height: 80px;
+	}
+	button{
+		margin-top: 100px;
+		margin-left: 650px;
+	}
+	
+	h1{
+		color: blue;
+	}
+	h3{
+		color: #00ff00;
+	}
+	 #bg{
+	 	border-color: red;
+	 }

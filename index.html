@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da Velha</title>
+	<link rel="shortcut icon" href="imagens/imagemicone.jpg">
+	<script src="jogodavelha.js"></script>
+	<link rel="stylesheet" type="text/css" href="jogodavelha.css">
+	<meta charset="utf-8">
+</head>
+<body background="imagens/imagembg.jpg">
+	<h1 align="center">JOGO DA VELHA</h1>
+	<table id="bg" align="center">
+		<tr>
+			<th><img id="espaco1" src="imagens/fundobranco.jpg" onclick="espaco1()"></th>
+			<th><img id="espaco2" src="imagens/fundobranco.jpg" onclick="espaco2()"></th>
+			<th><img id="espaco3" src="imagens/fundobranco.jpg" onclick="espaco3()"></th>
+		</tr>
+		<tr>
+			<th><img id="espaco4"  src="imagens/fundobranco.jpg" onclick="espaco4()"></th>
+			<th><img id="espaco5"  src="imagens/fundobranco.jpg" onclick="espaco5()"></th>
+			<th><img id="espaco6"  src="imagens/fundobranco.jpg" onclick="espaco6()"></th>
+		</tr>
+		<tr>
+			<th><img id="espaco7"  src="imagens/fundobranco.jpg" onclick="espaco7()"></th>
+			<th><img id="espaco8"  src="imagens/fundobranco.jpg" onclick="espaco8()"></th>
+			<th><img id="espaco9"  src="imagens/fundobranco.jpg" onclick="espaco9()"></th>
+		</tr>
+	</table>
+	<h3 align="center">Pontos do jogador X: <span id="pontosx">0</span></h3>
+	<h3 align="center">Pontos do jogador O: <span id="pontoso">0</span></h3>
+	<button onclick="restart()">Restart</button>
+</body>
+</html>
